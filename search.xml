@@ -51,6 +51,157 @@
       </tags>
   </entry>
   <entry>
+    <title>官方教程第一章</title>
+    <url>/2024/07/08/python-1/</url>
+    <content><![CDATA[<p>从现在开始，我们就将正式开始我们的教程分享工作，我们将分享前五章，后面几章将引导到大型协作平台——Notion上来进行分享。</p>
+<h1 id="Chapter-0-小白电脑扫盲课"><a href="#Chapter-0-小白电脑扫盲课" class="headerlink" title="Chapter 0 小白电脑扫盲课"></a>Chapter 0 小白电脑扫盲课</h1><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
+<li><a href="#01-%E4%BB%8B%E7%BB%8D">0.1 介绍</a></li>
+<li><a href="#02-%E9%94%AE%E7%9B%98%E5%92%8C%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE">0.2 键盘和键盘快捷键</a><ul>
+<li><a href="#021%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80">0.2.1键盘布局</a></li>
+<li><a href="#022%E4%BB%80%E4%B9%88%E6%98%AF%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE">0.2.2什么是键盘快捷键</a></li>
+<li><a href="#023-%E5%B8%B8%E8%A7%81%E9%94%AE%E7%9A%84%E5%8A%9F%E8%83%BD">0.2.3 常见键的功能</a></li>
+</ul>
+</li>
+<li><a href="#03-%E9%80%89%E6%8B%A9%E6%B5%8F%E8%A7%88%E5%99%A8">0.3 选择浏览器</a><ul>
+<li><a href="#031-%E4%BB%80%E4%B9%88%E6%98%AF%E6%B5%8F%E8%A7%88%E5%99%A8">0.3.1 什么是浏览器</a></li>
+</ul>
+</li>
+<li><a href="#04-%E9%81%BF%E5%85%8D%E5%B9%BF%E5%91%8A%E5%92%8C%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6">0.4 避免广告和流氓软件</a><ul>
+<li><a href="#041-%E5%A6%82%E4%BD%95%E8%AF%86%E5%88%AB%E5%B9%BF%E5%91%8A%E5%92%8C%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6">0.4.1 如何识别广告和流氓软件</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D">如何避免</a><ul>
+<li><a href="#%E5%AE%89%E8%A3%85%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E5%99%A8">安装广告拦截器</a></li>
+<li><a href="#%E4%B8%8D%E7%82%B9%E5%87%BB%E5%8F%AF%E7%96%91%E9%93%BE%E6%8E%A5">不点击可疑链接</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9%E6%B8%A0%E9%81%93%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6">使用官方渠道下载软件</a></li>
+<li><a href="#%E5%AE%89%E8%A3%85%E5%AE%89%E5%85%A8%E8%BD%AF%E4%BB%B6">安装安全软件</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#05-%E5%AE%89%E5%85%A8%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6">0.5 安全下载软件</a><ul>
+<li><a href="#052-%E4%B8%8B%E8%BD%BD%E6%AD%A5%E9%AA%A4">0.5.2 下载步骤</a></li>
+</ul>
+</li>
+<li><a href="#06-%E5%85%B6%E4%BB%96%E7%9F%A5%E8%AF%86">0.6 其他知识</a><ul>
+<li><a href="#061-%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9">0.6.1 文件和文件夹</a></li>
+<li><a href="#062-%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9">0.6.2 如何创建文件夹</a></li>
+<li><a href="#063-%E5%A6%82%E4%BD%95%E7%A7%BB%E5%8A%A8%E6%96%87%E4%BB%B6">0.6.3 如何移动文件</a></li>
+</ul>
+</li>
+<li><a href="#07-%E4%BB%80%E4%B9%88%E6%98%AF%E7%BB%88%E7%AB%AF">0.7 什么是终端</a><ul>
+<li><a href="#1-%E7%AE%80%E5%8D%95%E5%AE%9A%E4%B9%89">1. 简单定义：</a></li>
+<li><a href="#2-%E7%B1%BB%E6%AF%94%E8%A7%A3%E9%87%8A">2. 类比解释：</a></li>
+<li><a href="#3-%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E4%B8%8E%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%E7%9A%84%E5%AF%B9%E6%AF%94">3. 图形界面与命令行界面的对比：</a></li>
+<li><a href="#4-%E5%AE%9E%E4%BE%8B%E6%BC%94%E7%A4%BA">4. 实例演示：</a></li>
+<li><a href="#5-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0%E7%BB%88%E7%AB%AF">5. 为什么学习终端：</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="0-1-介绍"><a href="#0-1-介绍" class="headerlink" title="0.1 介绍"></a>0.1 介绍</h2><p>欢迎来到小白电脑扫盲课！这章教程将帮助你了解基本的电脑知识，包括键盘快捷键、键盘上的重要按键、如何选择和使用浏览器、如何避免广告和流氓软件，以及如何安全下载软件。即使你对电脑一无所知，也不用担心，我们会一步一步地带你了解这些知识。</p>
+<h2 id="0-2-键盘和键盘快捷键"><a href="#0-2-键盘和键盘快捷键" class="headerlink" title="0.2 键盘和键盘快捷键"></a>0.2 键盘和键盘快捷键</h2><p>键盘大家都会用，但是了解一些关键的键是非常重要的。所以这章我们将教授一些键盘基础知识，而不仅仅是使用<code>W A S D</code> 。</p>
+<h3 id="0-2-1键盘布局"><a href="#0-2-1键盘布局" class="headerlink" title="0.2.1键盘布局"></a>0.2.1键盘布局</h3><p>这是一张常见的108键键盘布局图：</p>
+<p>![键盘布局图](C:&#x2F;Users&#x2F;HP&#x2F;Documents&#x2F;教程&#x2F;Chapter 0 小白电脑扫盲课&#x2F;image&#x2F;20200907191053305_fY4VvY0Tqm.png “键盘布局图”)</p>
+<p>首先，让我们讲解一些冷知识：什么是键盘布局？<br>最早的键盘布局五花八门，可以说是百花齐放，一个比一个难用。到了1985年，当时电脑界的巨头IBM推出了配套PC的键盘——Model M，这是键盘标准化的重要一步（如下图），此时这个键盘布局除了Windows徽标键，以及中间的<code>delete</code> ，<code>home</code> ，<code>end</code> 等键以外，已经非常接近现在所用的键盘。后来，随着Windows的发展，1998年，正式的PC键盘布局（如上图）正式推出。</p>
+<p>![](C:&#x2F;Users&#x2F;HP&#x2F;Documents&#x2F;教程&#x2F;Chapter 0 小白电脑扫盲课&#x2F;image&#x2F;IBM_Model_M_Spanish_Keyboard_OEPcxRGIB8.jpg)</p>
+<h3 id="0-2-2什么是键盘快捷键"><a href="#0-2-2什么是键盘快捷键" class="headerlink" title="0.2.2什么是键盘快捷键"></a>0.2.2什么是键盘快捷键</h3><p>键盘快捷键是一种通过同时按下一个或多个键来快速执行特定操作的方法。它们可以提高工作效率，减少使用鼠标的频率。以下是一些常用的快捷键：</p>
+<ul>
+<li><strong>复制</strong>：按下 <code>Ctrl</code> + <code>C</code></li>
+<li><strong>粘贴</strong>：按下 <code>Ctrl</code> + <code>V</code></li>
+<li><strong>剪切</strong>：按下 <code>Ctrl</code> + <code>X</code></li>
+<li><strong>撤销</strong>：按下 <code>Ctrl</code> + <code>Z</code></li>
+<li><strong>全选</strong>：按下 <code>Ctrl</code> + <code>A</code></li>
+<li><strong>保存</strong>：按下 <code>Ctrl</code> + <code>S</code></li>
+<li><strong>调试</strong>&#x2F;<strong>刷新</strong>：按下<code>F5</code>&#x20;</li>
+<li><strong>切换程序：</strong> 按下<code>Alt</code> + <code>Tab</code></li>
+</ul>
+<h3 id="0-2-3-常见键的功能"><a href="#0-2-3-常见键的功能" class="headerlink" title="0.2.3 常见键的功能"></a>0.2.3 常见键的功能</h3><ul>
+<li><strong>Ctrl</strong>（控制键，一般位于键盘最左下角）：用于组合快捷键。</li>
+<li><strong>Alt</strong>（换挡键，一般位于Windows徽标键右边）：用于组合快捷键，切换应用程序。</li>
+<li><strong>Shift</strong>（上档键，在回车键下面）：用于大写字母和特殊符号。</li>
+<li><strong>Enter</strong>（回车键，在上档键上面）：用于确认操作或换行。</li>
+<li><strong>Backspace</strong>（退格键，在<code>+</code> 键右侧）：用于删除光标前的字符。</li>
+<li><strong>Delete</strong>（删除键，在108键键盘的中间，<code>Insert</code> 键下方）：用于删除光标后的字符或选中的项目。</li>
+<li><strong>Esc</strong>（退出键，键盘最左上角）：用于取消当前操作或关闭弹出窗口。</li>
+</ul>
+<h2 id="0-3-选择浏览器"><a href="#0-3-选择浏览器" class="headerlink" title="0.3 选择浏览器"></a>0.3 选择浏览器</h2><h3 id="0-3-1-什么是浏览器"><a href="#0-3-1-什么是浏览器" class="headerlink" title="0.3.1 什么是浏览器"></a>0.3.1 什么是浏览器</h3><p>浏览器是一种软件，用于访问和查看互联网内容。常见的浏览器包括：</p>
+<ul>
+<li><strong>谷歌浏览器</strong>（Google Chrome）：速度快，扩展多，适合大多数用户。</li>
+<li><strong>微软浏览器</strong>（Microsoft Edge）：Windows系统默认浏览器，兼容性好。</li>
+<li><strong>火狐浏览器</strong>（Mozilla Firefox）：开源、隐私保护好，适合注重隐私的用户。</li>
+<li><strong>苹果浏览器</strong>（Safari）：苹果设备的默认浏览器，速度快，节能。</li>
+</ul>
+<p>在选择浏览器时，我们需要考虑多个方面来评估它的优劣。</p>
+<p>首先，我们需要考虑浏览器的<strong>性能</strong>，即它在加载网页时的速度和流畅度。如果一个浏览器的加载速度慢，用户体验就会受到影响，导致浏览网页变得繁琐。</p>
+<p>其次，我们需要考虑浏览器的<strong>扩展性</strong>。浏览器是否支持各种插件和扩展，能否根据用户的需求进行个性化设置，是选择浏览器时需要考虑的一个重要因素。如果一个浏览器不支持扩展，用户将无法根据自己的需求对浏览器进行个性化设置，从而影响到浏览体验。</p>
+<p>除此之外，我们还需要考虑浏览器<strong>对用户隐私的保护程度</strong>。随着网络技术的发展，用户的个人信息越来越容易被泄露。因此，选择一个浏览器时，需要关注它对用户隐私的保护程度。例如，一些浏览器会采用安全技术来防止恶意软件的攻击，从而保护用户的个人信息不被泄露。</p>
+<p>最后，我们需要考虑<strong>浏览器的兼容性</strong>。浏览器是否能够正常运行我们常用的网站和服务，是否会出现兼容性问题。如果一个浏览器不能正常运行某些网站或服务，那么我们就需要重新选择一个浏览器。</p>
+<p>综上所述，选择一个适合自己的浏览器需要综合考虑多个方面。我们需要选择一个性能良好、扩展性强、隐私保护好、兼容性强的浏览器，从而保证我们在浏览网页时能够得到良好的体验。</p>
+<h2 id="0-4-避免广告和流氓软件"><a href="#0-4-避免广告和流氓软件" class="headerlink" title="0.4 避免广告和流氓软件"></a>0.4 避免广告和流氓软件</h2><h3 id="0-4-1-如何识别广告和流氓软件"><a href="#0-4-1-如何识别广告和流氓软件" class="headerlink" title="0.4.1 如何识别广告和流氓软件"></a>0.4.1 如何识别广告和流氓软件</h3><p>广告通常以弹出窗口、横幅或视频的形式出现，内容多为推销产品或服务。流氓软件是指未经用户同意，自动安装并难以卸载的软件。它们非常难以对付，所以需要小心对待。</p>
+<p>以上内容中，建议避免安装广告拦截器和不点击可疑链接，但同时提供了其他建议。以下是对每个要点的详细说明：</p>
+<h3 id="如何避免"><a href="#如何避免" class="headerlink" title="如何避免"></a>如何避免</h3><h4 id="安装广告拦截器"><a href="#安装广告拦截器" class="headerlink" title="安装广告拦截器"></a>安装广告拦截器</h4><p>广告拦截器可以帮助屏蔽广告，提高用户体验。但是，使用广告拦截器也可能会影响一些网站的访问，例如电子商务网站或博客。在使用广告拦截器之前，建议先阅读网站的使用条款和隐私政策，以确保使用广告拦截器不会违反相关规定。</p>
+<p>以下是几个常用的广告拦截器：</p>
+<ul>
+<li>AdBlock Plus：支持 Chrome、Firefox、Edge、Safari、Opera 等浏览器。</li>
+<li>AdGuard：支持 Chrome、Firefox、Edge、Safari、Opera 等浏览器。</li>
+<li>uBlock Origin：支持 Chrome、Firefox、Edge、Safari、Opera 等浏览器。</li>
+</ul>
+<p>安装广告拦截器非常简单。在浏览器中打开“设置”（三个点或者三条横杠），并打开相应的扩展页面（如 AdBlock Plus 的 Edge 扩展页面），点击“添加到 ”按钮即可完成安装。在其他浏览器中，也可以通过相应的应用商店或官方网站下载广告拦截器的插件。</p>
+<blockquote>
+<p>在国内，由于国家防火墙的原因，Chrome的插件商店一般对小白来说难以访问。但是，一旦你用微软浏览器和火狐浏览器，它们的扩展商店是可以直接访问的，而且插件数量和质量和Chrome大差不差。</p>
+</blockquote>
+<h4 id="不点击可疑链接"><a href="#不点击可疑链接" class="headerlink" title="不点击可疑链接"></a>不点击可疑链接</h4><p>点击可疑链接可能会导致恶意软件的安装，从而损害计算机的安全。因此，不要随意点击陌生邮件或网页上的链接，特别是不要点击附带下载或安装文件的链接。如果您收到一封看起来可疑的邮件，最好不要点击其中的链接，而是将其标记为垃圾邮件或直接删除。</p>
+<h4 id="使用官方渠道下载软件"><a href="#使用官方渠道下载软件" class="headerlink" title="使用官方渠道下载软件"></a>使用官方渠道下载软件</h4><p>为了避免下载恶意软件，建议从软件的官方网站或可信的应用商店下载软件。不要从第三方网站或论坛下载软件，因为这些网站上的软件可能存在安全漏洞或病毒。此外，也要避免下载破解软件或盗版软件，因为这些软件可能包含恶意代码。</p>
+<h4 id="安装安全软件"><a href="#安装安全软件" class="headerlink" title="安装安全软件"></a>安装安全软件</h4><p>安装安全软件可以帮助检测和清除恶意软件。常用的安全软件包括 Windows Defender、火绒安全软件等。在安装安全软件之前，请先备份您的数据，以免意外数据丢失。</p>
+<p>以上是几个常见的安全建议。除此之外，还有其他一些建议可以帮助您保护计算机的安全，例如定期更新操作系统和软件、使用强密码、不使用公共无线网络等。</p>
+<h2 id="0-5-安全下载软件"><a href="#0-5-安全下载软件" class="headerlink" title="0.5 安全下载软件"></a>0.5 安全下载软件</h2><p>下面是每个选项的详细说明：</p>
+<ol>
+<li>官方网站：选择软件的官方网站可以确保下载的软件是最新版本的，并且是由开发人员发布的。官方网站还提供了更好的文档和支持。</li>
+<li>可信应用商店：可信应用商店通常是由著名的软件公司或知名平台运营的，这些应用商店的审核流程较为严格，下载的软件质量也比较有保证。此外，可信应用商店也提供了一些有用的功能，如自动更新、备份等。</li>
+<li>知名包管理器：知名包管理器可以自动管理软件的下载和安装，避免了手动下载和安装软件的繁琐过程。同时，这些包管理器也会提供一些额外的功能，如自动更新、备份等。</li>
+</ol>
+<p>需要注意的是，选择下载来源时，应该避免从不知名的网站或非官方网站下载软件。这些网站可能存在恶意软件或病毒，会对计算机造成威胁。因此，建议从官方网站或可信应用商店下载软件。</p>
+<h3 id="0-5-2-下载步骤"><a href="#0-5-2-下载步骤" class="headerlink" title="0.5.2 下载步骤"></a>0.5.2 下载步骤</h3><ol>
+<li><strong>打开浏览器</strong>：选择你信任的浏览器，如 Google Chrome。</li>
+<li><strong>搜索软件</strong>：在搜索引擎中输入你要下载的软件名称和“官方”字样。</li>
+<li><strong>访问官方网站</strong>：点击搜索结果中的官方链接。</li>
+<li><strong>找到下载链接</strong>：在官方网站上找到并点击下载链接。</li>
+<li><strong>安装软件</strong>：下载完成后，双击安装文件，按照提示进行安装。</li>
+</ol>
+<h2 id="0-6-其他知识"><a href="#0-6-其他知识" class="headerlink" title="0.6 其他知识"></a>0.6 其他知识</h2><h3 id="0-6-1-文件和文件夹"><a href="#0-6-1-文件和文件夹" class="headerlink" title="0.6.1 文件和文件夹"></a>0.6.1 文件和文件夹</h3><ul>
+<li><strong>文件</strong>：存储数据的单个单位，如文档、图片、视频等。</li>
+<li><strong>文件夹</strong>：用于组织和存储多个文件。</li>
+</ul>
+<h3 id="0-6-2-如何创建文件夹"><a href="#0-6-2-如何创建文件夹" class="headerlink" title="0.6.2 如何创建文件夹"></a>0.6.2 如何创建文件夹</h3><ol>
+<li><strong>在桌面或文件管理器中</strong>，右键点击空白区域。</li>
+<li><strong>选择“新建”</strong>，然后选择“文件夹”。</li>
+<li><strong>输入文件夹名称</strong>，按下 <code>Enter</code> 键。</li>
+</ol>
+<h3 id="0-6-3-如何移动文件"><a href="#0-6-3-如何移动文件" class="headerlink" title="0.6.3 如何移动文件"></a>0.6.3 如何移动文件</h3><ol>
+<li><strong>选择文件</strong>：点击要移动的文件。</li>
+<li><strong>剪切文件</strong>：按下 <code>Ctrl</code> + <code>X</code> 或右键选择“剪切”。</li>
+<li><strong>选择目标文件夹</strong>：点击目标文件夹。</li>
+<li><strong>粘贴文件</strong>：按下 <code>Ctrl</code> + <code>V</code> 或右键选择“粘贴”。</li>
+</ol>
+<h2 id="0-7-什么是终端"><a href="#0-7-什么是终端" class="headerlink" title="0.7 什么是终端"></a>0.7 什么是终端</h2><h3 id="1-简单定义："><a href="#1-简单定义：" class="headerlink" title="1. 简单定义："></a>1. <strong>简单定义：</strong></h3><p>终端（Terminal）是一个让你直接与操作系统进行交互的工具。通过终端，你可以输入命令，操作系统会执行这些命令并显示结果。</p>
+<h3 id="2-类比解释："><a href="#2-类比解释：" class="headerlink" title="2. 类比解释："></a>2. <strong>类比解释：</strong></h3><p>终端就像是一个对话框，你可以通过它与电脑“对话”。当你输入一条命令并按下回车键时，就好比你向电脑说了一句话，然后电脑会根据你的指令去做事情并告诉你结果。</p>
+<h3 id="3-图形界面与命令行界面的对比："><a href="#3-图形界面与命令行界面的对比：" class="headerlink" title="3. 图形界面与命令行界面的对比："></a>3. <strong>图形界面与命令行界面的对比：</strong></h3><p>通常我们使用电脑的方式是通过图形界面（GUI），比如点击图标打开应用程序。而终端是一种命令行界面（CLI），你需要通过键盘输入命令来操作电脑，而不是用鼠标点击。</p>
+<h3 id="4-实例演示："><a href="#4-实例演示：" class="headerlink" title="4. 实例演示："></a>4. <strong>实例演示：</strong></h3><ul>
+<li><strong>打开终端：</strong> 在Windows系统中，你可以打开“命令提示符”或者“PowerShell”；在macOS中，你可以打开“终端”应用；在Linux系统中，你可以打开“终端”。</li>
+<li><strong>简单命令：</strong>&#x20;<ul>
+<li><code>ls</code>（在Linux和macOS上）或 <code>dir</code>（在Windows上）：列出当前目录中的文件和文件夹。</li>
+<li><code>cd 目录名</code>：改变当前工作目录。</li>
+<li><code>python</code>：进入Python交互模式，可以直接输入Python代码并执行。</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-为什么学习终端："><a href="#5-为什么学习终端：" class="headerlink" title="5. 为什么学习终端："></a>5. <strong>为什么学习终端：</strong></h3><p>使用终端可以让你更直接、更灵活地控制和管理你的电脑。很多高级的编程和开发工具都是通过终端来运行的，学会使用终端对成为一名程序员非常有帮助。</p>
+<hr>
+<p>通过这章的学习，你应该对基本的电脑操作有了一定的了解。希望这些知识能帮助你更好地使用电脑！</p>
+]]></content>
+      <tags>
+        <tag>编程资料分享</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>从零开始：福州二中Python创意编程社推出《Python编程初学者指南》</title>
     <url>/2024/07/02/tutorial/</url>
     <content><![CDATA[<p>在科技迅猛发展的今天，编程已经成为一项必备技能。福州二中Python创意编程社自豪地宣布推出一份全面、详尽的Python编程教程：《Python Programming for Beginners: Start from Scratch》。这份教程旨在帮助初学者从零开始，掌握Python编程的核心概念和实际应用。</p>
