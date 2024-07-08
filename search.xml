@@ -99,9 +99,9 @@
 <h2 id="0-1-介绍"><a href="#0-1-介绍" class="headerlink" title="0.1 介绍"></a>0.1 介绍</h2><p>欢迎来到小白电脑扫盲课！这章教程将帮助你了解基本的电脑知识，包括键盘快捷键、键盘上的重要按键、如何选择和使用浏览器、如何避免广告和流氓软件，以及如何安全下载软件。即使你对电脑一无所知，也不用担心，我们会一步一步地带你了解这些知识。</p>
 <h2 id="0-2-键盘和键盘快捷键"><a href="#0-2-键盘和键盘快捷键" class="headerlink" title="0.2 键盘和键盘快捷键"></a>0.2 键盘和键盘快捷键</h2><p>键盘大家都会用，但是了解一些关键的键是非常重要的。所以这章我们将教授一些键盘基础知识，而不仅仅是使用<code>W A S D</code> 。</p>
 <h3 id="0-2-1键盘布局"><a href="#0-2-1键盘布局" class="headerlink" title="0.2.1键盘布局"></a>0.2.1键盘布局</h3><p>这是一张常见的108键键盘布局图：</p>
-<p>![键盘布局图](C:&#x2F;Users&#x2F;HP&#x2F;Documents&#x2F;教程&#x2F;Chapter 0 小白电脑扫盲课&#x2F;image&#x2F;20200907191053305_fY4VvY0Tqm.png “键盘布局图”)</p>
+<p><img src="/images/%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80.png" alt="键盘布局图"></p>
 <p>首先，让我们讲解一些冷知识：什么是键盘布局？<br>最早的键盘布局五花八门，可以说是百花齐放，一个比一个难用。到了1985年，当时电脑界的巨头IBM推出了配套PC的键盘——Model M，这是键盘标准化的重要一步（如下图），此时这个键盘布局除了Windows徽标键，以及中间的<code>delete</code> ，<code>home</code> ，<code>end</code> 等键以外，已经非常接近现在所用的键盘。后来，随着Windows的发展，1998年，正式的PC键盘布局（如上图）正式推出。</p>
-<p>![](C:&#x2F;Users&#x2F;HP&#x2F;Documents&#x2F;教程&#x2F;Chapter 0 小白电脑扫盲课&#x2F;image&#x2F;IBM_Model_M_Spanish_Keyboard_OEPcxRGIB8.jpg)</p>
+<p><img src="/images/IBM_MODEL_M.jpg" alt="IBM Model M"></p>
 <h3 id="0-2-2什么是键盘快捷键"><a href="#0-2-2什么是键盘快捷键" class="headerlink" title="0.2.2什么是键盘快捷键"></a>0.2.2什么是键盘快捷键</h3><p>键盘快捷键是一种通过同时按下一个或多个键来快速执行特定操作的方法。它们可以提高工作效率，减少使用鼠标的频率。以下是一些常用的快捷键：</p>
 <ul>
 <li><strong>复制</strong>：按下 <code>Ctrl</code> + <code>C</code></li>
